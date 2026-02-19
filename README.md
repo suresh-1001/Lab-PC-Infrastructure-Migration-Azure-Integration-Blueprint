@@ -1,8 +1,20 @@
 # Lab PC Infrastructure Migration & Azure Integration Blueprint
+---
+## Project Highlights
 
-## Overview
+- Full Windows system imaging & validation strategy
+- Hardware portability replication framework
+- Secure Azure connectivity validation
+- Automation-driven rebuild procedures
+- Infrastructure documentation discipline
+## Architecture Overview
+![Lab Infrastructure Architecture](docs/architecture.png)
 
-This repository demonstrates a structured approach to migrating, backing up, validating, and integrating Windows-based laboratory PCs with Azure-hosted infrastructure.
+This diagram illustrates the end-to-end infrastructure data flow:
+
+Robotic Hardware → Lab PC (Windows) → Local Network → Firewall → Azure Platform.
+
+This repository demonstrates a structured migration and validation framework for Windows-based laboratory PCs integrating with Azure-hosted infrastructure.
 
 The objective is to enable:
 
