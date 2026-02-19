@@ -1,4 +1,16 @@
 # Lab PC Infrastructure Migration & Azure Integration Blueprint
+This blueprint simulates a real-world laboratory PC migration scenario involving full Windows imaging, hardware replication validation, and secure Azure platform integration with automation-driven rebuild procedures.
+
+---
+## Repository Structure
+
+| Phase | Description | Link |
+|-------|------------|------|
+| Phase 1 | Backup & Validation | [Open](01-Backup-Strategy/) |
+| Phase 2 | Hardware Replication | [Open](02-Hardware-Replication/) |
+| Phase 3 | Azure Integration | [Open](03-Azure-Integration/) |
+| Phase 4 | Rebuild Framework | [Open](04-Rebuild-From-Scratch/) |
+| Phase 5 | Automation | [Open](05-Automation/) |
 ---
 ## Project Highlights
 
@@ -31,31 +43,36 @@ This project mirrors real-world lab infrastructure migration and recovery scenar
 
 ## Project Phases
 
-### Phase 1 – System Backup & Validation
+### Phase 1 – System Backup & Validation  
+[View Backup Strategy →](01-Backup-Strategy/)
 - Capture full Windows system image
 - Export driver & software inventory
 - Validate restore integrity
 - Test boot & service functionality
 
-### Phase 2 – Hardware Replication
+### Phase 2 – Hardware Replication  
+[View Hardware Replication Framework →](02-Hardware-Replication/)
 - Map hardware dependencies
 - Validate driver portability
 - Confirm BIOS/UEFI configuration
 - Validate robotic device connectivity
 
-### Phase 3 – Azure Secure Connectivity
+### Phase 3 – Azure Secure Connectivity  
+[View Azure Integration Assets →](03-Azure-Integration/)
 - Configure secure outbound connectivity
 - Validate DNS & firewall rules
 - Test Azure endpoint communication
 - Confirm encrypted data flow
 
-### Phase 4 – Clean System Rebuild Framework
+### Phase 4 – Clean System Rebuild Framework  
+[View Rebuild Documentation →](04-Rebuild-From-Scratch/)
 - Reinstall OS from scratch
 - Reapply drivers and middleware
 - Validate robotic software stack
 - Confirm full data path to Azure
 
-### Phase 5 – Automation
+### Phase 5 – Automation  
+[View PowerShell Automation Scripts →](05-Automation/)
 Includes PowerShell automation scripts for:
 - Baseline system export
 - Connectivity validation
